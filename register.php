@@ -34,8 +34,8 @@
                     $mail->SMTPAuth=true;
                     $mail->SMTPSecure='tls';
     
-                    $mail->Username='email account';
-                    $mail->Password='email password';
+                    $mail->Username='infoujc19@gmail.com';
+                    $mail->Password='Andrewjoshua123#';
     
                     $mail->setFrom('email account', 'OTP Verification');
                     $mail->addAddress($_POST["email"]);
